@@ -1,0 +1,39 @@
+/* 
+    Document   : WineCSS
+    Created on : Jan 15, 2013, 9:58:15 PM
+    Author     : Casey
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    margin: 20px;
+}
+
+form {
+    display: table;
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #e1ceb8;
+}
+
+form textarea {
+    width: 500px;
+    height: 200px;
+}
+
+div.tableRow {
+    display: table-row;
+}
+
+div.tableRow p {
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+div.tableRow p:first-child {
+    text-align: right;
+}
+p.heading {
+    font-weight: bold;
+}

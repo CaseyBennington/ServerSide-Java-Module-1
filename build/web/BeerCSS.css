@@ -1,0 +1,28 @@
+/* 
+    Document   : BeerCSS
+    Created on : Jan 15, 2013, 9:58:05 PM
+    Author     : Casey
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    font-family:   sans-serif;
+    background:       #efe5d0 url(Pictures/beer.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1, body h2 {
+    color:         gray;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+p {
+    color:         maroon;
+}
